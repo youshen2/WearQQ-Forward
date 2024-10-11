@@ -1,0 +1,33 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'moye.wearqq.forward'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "moye.wearqq.forward"
+        minSdk 19
+        //noinspection ExpiredTargetSdkVersion
+        targetSdk 26
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation libs.activity
+}
