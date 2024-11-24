@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,18 +11,20 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="4dp"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:text="WearQQ通知转发工具"
             android:textColor="@color/white"
-            android:text="WearQQ通知转发工具" />
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="13sp"
             android:alpha="0.86"
+            android:text="开发者：爅峫\nWearQQ及本软件交流群：\n   709995196\n\n开源地址：https://github.com/youshen2/WearQQ-Forward"
             android:textColor="@color/white"
-            android:text="开发者：爅峫" />
+            android:textSize="13sp" />
     </LinearLayout>
 </ScrollView>
