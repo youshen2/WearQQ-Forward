@@ -11,6 +11,7 @@ import android.os.Build;
 
 public class ToolUtils {
     public static Bitmap DrawableToBitmap(Drawable drawable) {
+        // 把Drawable转换成Bitmap，用于在通知中显示头像
         int width = drawable.getIntrinsicWidth();
         int heigh = drawable.getIntrinsicHeight();
 
